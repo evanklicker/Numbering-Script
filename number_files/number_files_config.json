@@ -1,0 +1,13 @@
+[{
+    "starting_number":0,
+    "number_position":"suffix",
+    "path_to_folder":"..\\examples"
+},
+{
+    "description": "This config file has some settings for the number_files.exe script. The first entry (above) is what the script will actually look at, and the second entry (this one) is just for explanation. You can put whatever info you want in this, just be sure to adhere to JSON format - otherwise the script won't work!",
+    "starting_number": "ANY NUMBER GOES HERE - WITHOUT QUOTES",
+    "number_position": "Either 'prefix' or 'suffix' - use double quotes for this",
+    "path_to_folder":"This is the file path to the folder containing the files you want to add numbers to. A single period (.) means 'this folder' and two periods (..) means the folder above this. Also, backslashes (\\) need to be doubled. Example paths: 'C:\\Users\\Evank\\AppData', '..\\Case Files'. Use double quotes for this too.",
+    "executable_creation_instructions":"Download pyinstaller (`pip install pyinstaller`). Then just run `pyinstaller -F yourprogram.py` to create the .exe"
+}
+]
